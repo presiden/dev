@@ -1,0 +1,344 @@
+body {
+  /* background-color: #78d3fa; */
+  transition: background-color 5s linear;
+  /* animation: body1 20s linear infinite; */
+}
+
+#belakang{
+  background-color: #78d3fa;
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  margin: 0;
+  position:fixed;
+    padding:0;
+    top:0;
+    left:0;
+}
+
+#pict {
+  border-radius: 5%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* content: url("../img/tenor (1).gif"); */
+  width: 200px;
+  height: 200px;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  animation: pictFrame 60s linear infinite;
+  animation-delay: 2s;
+}
+
+#music-player {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  transition: top 2s;
+}
+
+.bulat span {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: rgba(255, 255, 255, 255);
+  left: -50px;
+  z-index: -1;
+}
+
+/* .bulat span:nth-child(1), .bulat span:nth-child(5), .bulat span:nth-child(9), .bulat span:nth-child(13), .bulat span:nth-child(17) {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: animation1 10s linear infinite;
+  animation-delay: 0s;
+}
+
+.bulat span:nth-child(2), .bulat span:nth-child(6), .bulat span:nth-child(10), .bulat span:nth-child(14), .bulat span:nth-child(18) {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: animation2 10s linear infinite;
+  animation-delay: 2s;
+}
+
+.bulat span:nth-child(3), .bulat span:nth-child(7), .bulat span:nth-child(11), .bulat span:nth-child(15), .bulat span:nth-child(19) {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: animation3 10s linear infinite;
+  animation-delay: 1s;
+}
+
+.bulat span:nth-child(4), .bulat span:nth-child(8), .bulat span:nth-child(12), .bulat span:nth-child(16), .bulat span:nth-child(20) {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: animation4 10s linear infinite;
+  animation-delay: 3s;
+} */
+
+.bulat span:nth-child(1) {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: animation1 10s linear infinite;
+  animation-delay: 0s;
+}
+
+.bulat span:nth-child(2) {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: animation2 10s linear infinite;
+  animation-delay: 2s;
+}
+
+.bulat span:nth-child(3) {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: animation3 10s linear infinite;
+  animation-delay: 1s;
+}
+
+.bulat span:nth-child(4) {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: animation4 10s linear infinite;
+  animation-delay: 5s;
+}
+
+.bulat span:nth-child(5) {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: animation5 10s linear infinite;
+  animation-delay: 0s;
+}
+
+.bulat span:nth-child(6) {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: animation6 10s linear infinite;
+  animation-delay: 5s;
+}
+
+.bulat span:nth-child(7) {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: animation7 10s linear infinite;
+  animation-delay: 0s;
+}
+
+.bulat span:nth-child(8) {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: animation8 10s linear infinite;
+  animation-delay: 5s;
+}
+
+.bulat span:nth-child(9) {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: animation9 10s linear infinite;
+  animation-delay: 1s;
+}
+
+.bulat span:nth-child(10) {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: animation10 10s linear infinite;
+  animation-delay: 2s;
+}
+
+.bulat span:nth-child(11) {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: animation1 10s linear infinite;
+  animation-delay: 3s;
+}
+
+.bulat span:nth-child(12) {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: animation2 10s linear infinite;
+  animation-delay: 6s;
+}
+
+.bulat span:nth-child(13) {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: animation3 10s linear infinite;
+  animation-delay: 4s;
+}
+
+.bulat span:nth-child(14) {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: animation4 10s linear infinite;
+  animation-delay: 8s;
+}
+
+.bulat span:nth-child(15) {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: animation5 10s linear infinite;
+  animation-delay: 3s;
+}
+
+.bulat span:nth-child(16) {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: animation6 10s linear infinite;
+  animation-delay: 8s;
+}
+
+.bulat span:nth-child(17) {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: animation7 10s linear infinite;
+  animation-delay: 3s;
+}
+
+.bulat span:nth-child(18) {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: animation8 10s linear infinite;
+  animation-delay: 8s;
+}
+
+.bulat span:nth-child(19) {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: animation9 10s linear infinite;
+  animation-delay: 3s;
+}
+
+.bulat span:nth-child(20) {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: animation10 10s linear infinite;
+  animation-delay: 4s;
+}
+
+@keyframes animation1 {
+  0% {
+    transform: translate(-10vw, -10vh);
+  }
+
+  100% {
+    transform: translate(20vw, 100vh);
+  }
+}
+
+@keyframes animation2 {
+  0% {
+    transform: translate(0vw, -10vh);
+  }
+
+  100% {
+    transform: translate(10vw, 100vh);
+  }
+}
+
+@keyframes animation3 {
+  0% {
+    transform: translate(10vw, -20vh);
+  }
+
+  100% {
+    transform: translate(40vw, 100vh);
+  }
+}
+
+@keyframes animation4 {
+  0% {
+    transform: translate(20vw, -20vh);
+  }
+
+  100% {
+    transform: translate(50vw, 100vh);
+  }
+}
+
+@keyframes animation5 {
+  0% {
+    transform: translate(30vw, -20vh);
+  }
+
+  100% {
+    transform: translate(30vw, 100vh);
+  }
+}
+
+@keyframes animation6 {
+  0% {
+    transform: translate(40vw, -20vh);
+  }
+
+  100% {
+    transform: translate(70vw, 100vh);
+  }
+}
+
+@keyframes animation7 {
+  0% {
+    transform: translate(50vw, -20vh);
+  }
+
+  100% {
+    transform: translate(80vw, 100vh);
+  }
+}
+
+@keyframes animation8 {
+  0% {
+    transform: translate(60vw, -20vh);
+  }
+
+  100% {
+    transform: translate(70vw, 100vh);
+  }
+}
+
+@keyframes animation9 {
+  0% {
+    transform: translate(70vw, -20vh);
+  }
+
+  100% {
+    transform: translate(90vw, 100vh);
+  }
+}
+
+@keyframes animation10 {
+  0% {
+    transform: translate(80vw, -20vh);
+  }
+
+  100% {
+    transform: translate(80vw, 100vh);
+  }
+}
