@@ -19,7 +19,7 @@
             </div>
         </div>
     </div>
-    <script src='http://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+    <script src='js/jquery-3.3.1.slim.min.js'></script>
     <script src="js/jquery.keyframes.min.js"></script>
     <script src="js/custom.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/greghub/green-audio-player/dist/js/green-audio-player.min.js"></script>
